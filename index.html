@@ -28,8 +28,8 @@
         <a href="#about__section">About</a>
         <a href="#menu__section">Menu</a>
         <a href="#gallery__section">Gallery</a>
-        <a href="#">Review</a>
-        <a href="#">Order</a>
+        <a href="#customer__section">Review</a>
+        <a href="#order__section">Order</a>
       </nav>
       <div class="header__icons">
         <a href=""><i class="fas fa-search"></i></a>
@@ -40,7 +40,7 @@
   </header>
 
   <section id="hero__section">
-    <div class="container grid grid-column grid-item-center">
+    <div class="container grid grid-column grid-item-center grid-reverse-area">
       <div class="hero__left flex flex-column flex-justify-evenly">
         <h1>Get Fresh Food in a Easy Way</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum, nesciunt facilis sint excepturi
@@ -377,6 +377,20 @@
                 <i class="fas fa-star fa-2x color-primary-300"></i>
                 <i class="fas fa-star-half-alt fa-2x color-primary-300"></i>
               </div>
+              <div class="customer__social__media">
+                <a href="https://www.facebook.com/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti minima excepturi vero, culpa ex
                 sapiente, nostrum, enim cum placeat obcaecati molestiae deserunt reprehenderit temporibus ea?</p>
             </div>
@@ -393,6 +407,20 @@
                 <i class="fas fa-star fa-2x color-primary-300"></i>
                 <i class="fas fa-star fa-2x color-primary-300"></i>
                 <i class="fas fa-star-half-alt fa-2x color-primary-300"></i>
+              </div>
+              <div class="customer__social__media">
+                <a href="https://www.facebook.com/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti minima excepturi vero, culpa ex
                 sapiente, nostrum, enim cum placeat obcaecati molestiae deserunt reprehenderit temporibus ea?</p>
@@ -411,6 +439,20 @@
                 <i class="fas fa-star fa-2x color-primary-300"></i>
                 <i class="fas fa-star-half-alt fa-2x color-primary-300"></i>
               </div>
+              <div class="customer__social__media">
+                <a href="https://www.facebook.com/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti minima excepturi vero, culpa ex
                 sapiente, nostrum, enim cum placeat obcaecati molestiae deserunt reprehenderit temporibus ea?</p>
             </div>
@@ -428,6 +470,20 @@
                 <i class="fas fa-star fa-2x color-primary-300"></i>
                 <i class="fas fa-star-half-alt fa-2x color-primary-300"></i>
               </div>
+              <div class="customer__social__media">
+                <a href="https://www.facebook.com/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti minima excepturi vero, culpa ex
                 sapiente, nostrum, enim cum placeat obcaecati molestiae deserunt reprehenderit temporibus ea?</p>
             </div>
@@ -435,8 +491,97 @@
         </div>
       </div>
     </section>
+    <section id="order__section">
+      <div class="container">
+        <h2>Order <span class="color-primary-300">Now</span></h2>
+        <div class="grid grid-column grid-item-center">
+          <div class="order__left">
+            <img src="image/order_image.png" alt="Order Now Image">
+          </div>
+          <div class="order__right">
+            <form method="post" action="" class="grid grid-two-column order__form">
+              <label for="name">
+                Name
+                <input class="order__input" type="text" name="name" id="name" placeholder="Your Name" required>
+              </label>
+              <label for="email">
+                Email
+                <input class="order__input" type="email" name="email" id="email" placeholder="Your Email" required>
+              </label>
+              <label for="number">
+                Number
+                <input class="order__input" type="tel" name="number" id="number" placeholder="Your Phone Number"
+                  required>
+              </label>
+              <label for="orders">
+                How Many Orders
+                <input class="order__input" type="number" name="orders" id="orders" min="1" max="10" value="1"
+                  placeholder="How many orders do you want" required>
+              </label>
+              <label for="address">
+                Address
+                <input class="order__input" type="text" name="address" id="address" placeholder="Your Address" required>
+              </label>
+              <button type="submit" class="primary-button flex flex-align-center flex-justify-center">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <footer class="footer">
+    <div class="container">
+      <div class="grid grid-footer">
+        <div class="footer__list text-center">
+          <h3>Location</h3>
+          <ul>
+            <li><a href="#">Sri Lanka</a></li>
+            <li><a href="#">USA</a></li>
+            <li><a href="#">India</a></li>
+            <li><a href="#">Japan</a></li>
+            <li><a href="#">Italy</a></li>
+          </ul>
+        </div>
+        <div class="footer__list text-center">
+          <h3>Quick Link</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about__section">About</a></li>
+            <li><a href="#menu__section">Menu</a></li>
+            <li><a href="#gallery__section">Gallery</a></li>
+            <li><a href="#order__section">Order</a></li>
+          </ul>
+        </div>
+        <div class="footer__list text-center">
+          <h3>Contact</h3>
+          <ul>
+            <a href="tel:+"></a>
+            <li><a href="tel:+593988949117">+593 0988949117</a></li>
+            <li><a href="tel:+593988949117">+593 0988949117</a></li>
+            <li><a href="mailto:johnpalacios.t@gmail.com">johnpalacios.t@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="footer__list text-center">
+          <h3>Our Service</h3>
+          <ul>
+            <li><a href="#">Fast Delivery</a></li>
+            <li><a href="#">Easy Payments</a></li>
+            <li><a href="#">24/7 Service</a></li>
+          </ul>
+        </div>
+        <div class="footer__list text-center">
+          <h3>Social Media</h3>
+          <ul class="flex flex-align-center flex-justify-evenly">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
